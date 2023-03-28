@@ -1,2 +1,2 @@
 # progWeb
-Link: faculdade.vpuchille.dev
+Link: https://faculdade.vpuchille.dev/
