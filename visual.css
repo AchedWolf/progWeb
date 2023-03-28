@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    padding-right: 10px;
+}
+
+.logo {
+    font: 20px bold;
+}
+
+.logoImg {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.searchImg {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.center {
+    margin: auto;
+    padding: auto;
+}
+
+.row {
+    margin: 0px;
+}
+
+.imagem {
+    border: 0px;
+    border-bottom: 5px solid;
+    border-color: #144fff;
+}
+
+.content {
+    border-top: 5px solid;
+    border-color: #144fff;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    font: 30px bold;
+    margin: 5px 0px;
+}
+
+.text {
+    font: justify;
+}
+
+.footer {
+    background-color: #144fff;
+    height: 7%;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+.devText {
+    color: white;
+}
+
+.devImg {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 5px;
+}
+
+.produto {
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.prodImg {
+    margin: auto auto;
+    min-width: 80px;
+    min-height: 80px;
+    max-height: 200px;
+}
+
+.prodText {
+    margin: auto auto;
+    color: black;
+}
+
+.envioFormulario {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+form.contato {
+    padding: 5px;
+    padding-top: 20px;
+    border: black 1px solid;
+    border-radius: 5px;
+}

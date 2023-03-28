@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="visual.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>3DCat - Sua ideia real</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar row">
+        <a class="col-2 center" href="index.html">
+            <div class="row">
+                <img class="col logoImg"
+                    src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/8/238534708/logo-2022123011030683100.png">
+                <span class="col logo center">3DCat</span>
+            </div>
+        </a>
+
+        <div class="col-6 form-group center">
+            <form class="center">
+                <div class="input-group">
+                    <input class="search form-control" placeholder="Busca" type="text">
+                    <button type="submit" class="btn btn-secondary">
+                        <img class="searchImg" src="img/magnifying-glass-solid.png">
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <a role="button" class="col-1 btn btn-primary" href="index.html">
+            Inicio
+        </a>
+
+        <a role="button" class="col-1 btn btn-primary" href="empresa.html">
+            Empresa
+        </a>
+
+        <a role="button" class="col-1 btn btn-primary" href="produtos.html">
+            Produtos
+        </a>
+
+        <a role="button" class="col-1 btn btn-primary" href="contato.html">
+            Contato
+        </a>
+    </div>
+
+    <!-- Conteudo -->
+    <div class="content">
+        <!-- Texto -->
+        <div class="container">
+            <div class="row">
+                <span class="col-12 center title"> Fale conosco</span>
+            </div>
+            <form class="row contato">
+                <div class="form-group col-12">
+                    <label for="name">Nome</label>
+                    <input class="col-12 form-control" type="text" id="name">
+                </div>
+                <div class="form-group col-12">
+                    <label for="cel">Celular</label>
+                    <input class="col-12 form-control" type="text" id="cel">
+                </div>
+                <div class="form-group col-12">
+                    <label for="email">Email</label>
+                    <input class="col-12 form-control" type="email" id="email">
+                </div>
+                <div class="form-group col-12">
+                    <label for="assunto">Assunto</label>
+                    <select class="col-12 form-control" id="assunto">
+                        <option>Pedido</option> <!-- Essa opção foi adicionada por conta do contexto da loja -->
+                        <option>Sugestão</option>
+                        <option>Reclamações</option>
+                        <option>Elogio</option>
+                    </select>
+                </div>
+                <div class="form-group col-12">
+                    <label for="message">Mensagem</label>
+                    <textarea class="col-12 form-control" id="message" rows="5"></textarea>
+                </div>
+                <button class="btn btn-primary envioFormulario" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer row">
+        <div class="col-4 center">
+            <p class="center text-white text-center">
+                Rua Carlos Gomes, 380, Cornélio Procópio
+            </p>
+        </div>
+        <div class="col-4 center text-white text-center">
+            © 2023
+        </div>
+        <div class="col-4 text-center center">
+            <a class="center" href="vpuchille.dev">
+                <span class="devText">Desenvolvido por</span>
+                <img class="devImg" src="https://vpuchille.dev/Imagens/meu-logo.png">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
